@@ -21,38 +21,38 @@ const cardsData = [
     {
         image: "img/Pezdragon.webp",
         title: "Pez dragón",
-        text: "Descripción de la card 4. Este es un texto de ejemplo.",
+        text: "El pez dragón es un depredador de aguas profundas con un cuerpo alargado, bioluminiscencia y dientes afilados. Habita en océanos oscuros y caza con señuelos luminosos.",
         alt: "Pez dragón"
     },
     {
         image: "img/Cangrejogigante.webp",
         title: "Cangrejo gigante",
-        text: "Descripción de la card 5. Este es un texto de ejemplo.",
+        text: "El cangrejo gigante, como el cangrejo araña japonés (Macrocheira kaempferi), es el artrópodo más grande del mundo, con patas que pueden alcanzar 4 metros de envergadura. Habita en aguas profundas del Pacífico.",
         alt: "Cangrejo gigante"
     },
     {
         image: "img/Mantarraya.webp",
         title: "Mantarraya",
-        text: "Descripción de la card 6. Este es un texto de ejemplo.",
+        text: "La mantarraya (Manta birostris) es un pez cartilaginoso de gran tamaño que puede medir hasta 7 metros de envergadura. Nada en aguas cálidas y se alimenta filtrando plancton.",
         alt: "Mantarraya"
     },
     {
-        image: "https://via.placeholder.com/300",
-        title: "Card 7",
-        text: "Descripción de la card 7. Este es un texto de ejemplo.",
-        alt: "Imagen de ejemplo"
+        image: "img/Tortugamarina.webp",
+        title: "Tortuga marina",
+        text: "La tortuga marina es un reptil que pasa la mayor parte de su vida en el agua. Hay varias especies, como la tortuga verde, la carey y la laúd. Se alimentan de plantas marinas, medusas y otros invertebrados, y suelen regresar a las playas donde nacieron para poner sus huevos.",
+        alt: "Tortuga marina"
     },
     {
-        image: "https://via.placeholder.com/300",
-        title: "Card 8",
-        text: "Descripción de la card 8. Este es un texto de ejemplo.",
-        alt: "Imagen de ejemplo"
+        image: "img/Estrellademar.webp",
+        title: "Estrella de mar",
+        text: "La estrella de mar es un equinodermo marino con un cuerpo central del que se extienden generalmente cinco brazos. Se alimenta de moluscos y otros invertebrados, utilizando sus pies ambulacrales para moverse y capturar presas.",
+        alt: "Estrella de mar"
     },
     {
-        image: "https://via.placeholder.com/300",
-        title: "Card 9",
-        text: "Descripción de la card 9. Este es un texto de ejemplo.",
-        alt: "Imagen de ejemplo"
+        image: "img/Tiburonmartillo.webp",
+        title: "Tiburón martillo",
+        text: "El tiburón martillo (Sphyrna) es una especie de tiburón conocida por su cabeza en forma de martillo. Esta característica le ayuda a mejorar su visión y a localizar presas, como peces y crustáceos. Habita en aguas cálidas y tropicales.",
+        alt: "Tiburón martillo"
     }
 ];
 
