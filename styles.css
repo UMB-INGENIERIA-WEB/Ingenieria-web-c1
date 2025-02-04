@@ -1,0 +1,92 @@
+body{
+    background-color: #101010;
+}
+/* Estilos para las cards */
+.card {
+    background-color: #101010; 
+    border-radius: 10%; /* Bordes redondeados */
+    box-shadow: 16px 14px 20px #0000008c; /* Sombra exterior */
+    position: relative; /* Posición relativa para los pseudo-elementos */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Texto blanco */
+    margin: 10px; /* Margen entre las cards */
+}
+
+/* Efecto de animación con gradiente */
+.card:hover::before {
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-image: conic-gradient(rgb(50, 97, 185) 20deg, transparent 120deg); /* Gradiente cónico */
+    animation: rotar 2s linear infinite; /* Animación de rotación */
+}
+
+/* Animación de rotación */
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+/* Capa interna para cubrir el gradiente */
+.card::after {
+    content: "";
+    position: absolute;
+    height: 98%; /* Un poco más pequeño que la card */
+    width: 98%; /* Un poco más pequeño que la card */
+    background-color: #07032c; 
+    border-radius: 10%; 
+    box-shadow: inset 16px 14px 20px #0000008c; 
+}
+
+/* Estilos para las imágenes dentro de las cards */
+.card-img-top {
+    margin-top: 4px;
+    width: 98%; /*ancho del contenedor */
+    height: 150px; /* Altura fija */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px;
+    position: relative; /* Posición relativa para superponer el contenido */
+    z-index: 1; /* Asegura que la imagen esté sobre los pseudo-elementos */
+}
+
+/* Estilos para el cuerpo de la card */
+.card-body {
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    position: relative; /* Posición relativa para superponer el contenido */
+    z-index: 1; /* Asegura que el contenido esté sobre los pseudo-elementos */
+}
+
+.card-title {
+    font-size: 1.2rem; 
+    margin-bottom: 5px; 
+}
+
+.card-text {
+    font-size: 0.9rem; 
+    margin-bottom: 10px; 
+}
+/*Estilos boton*/
+.btn-primary {
+    background-color: #FF0000; 
+    border: none; /* Sin borde */
+    border-radius: 10px; 
+    text-decoration: none; /* Sin subrayado */
+    color: white; 
+    transition: background-color 0.3s ease; /* Transición suave */
+    position: relative; 
+    z-index: 1; /* Asegura que el botón esté sobre los pseudo-elementos */
+}
+
+.btn-primary:hover {
+    background-color: #CC0000; /* Color rojo más oscuro al hacer hover */
+}
