@@ -4,15 +4,15 @@ body{
 /* Estilos para las cards */
 .card {
     background-color: #101010; 
-    border-radius: 10%; /* Bordes redondeados */
+    border-radius: 10%; 
     box-shadow: 16px 14px 20px #0000008c; /* Sombra exterior */
     position: relative; /* Posición relativa para los pseudo-elementos */
     overflow: hidden; /* Oculta el contenido que se desborda */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white; /* Texto blanco */
-    margin: 10px; /* Margen entre las cards */
+    color: white; 
+    margin: 10px; 
 }
 
 /* Efecto de animación con gradiente */
@@ -22,7 +22,7 @@ body{
     height: 400px;
     width: 400px;
     background-image: conic-gradient(rgb(50, 97, 185) 20deg, transparent 120deg); /* Gradiente cónico */
-    animation: rotar 2s linear infinite; /* Animación de rotación */
+    animation: rotar 2s linear infinite; 
 }
 
 /* Animación de rotación */
@@ -39,8 +39,8 @@ body{
 .card::after {
     content: "";
     position: absolute;
-    height: 98%; /* Un poco más pequeño que la card */
-    width: 98%; /* Un poco más pequeño que la card */
+    height: 98%; 
+    width: 98%; 
     background-color: #07032c; 
     border-radius: 10%; 
     box-shadow: inset 16px 14px 20px #0000008c; 
@@ -54,15 +54,15 @@ body{
     object-fit: cover; /* Ajusta la imagen sin distorsionarla */
     border-top-left-radius: 30px; 
     border-top-right-radius: 30px;
-    position: relative; /* Posición relativa para superponer el contenido */
+    position: relative;
     z-index: 1; /* Asegura que la imagen esté sobre los pseudo-elementos */
 }
 
 /* Estilos para el cuerpo de la card */
 .card-body {
     padding: 10px; /* Espaciado interno */
-    text-align: center; /* Centra el texto */
-    position: relative; /* Posición relativa para superponer el contenido */
+    text-align: center; 
+    position: relative; 
     z-index: 1; /* Asegura que el contenido esté sobre los pseudo-elementos */
 }
 
@@ -78,9 +78,9 @@ body{
 /*Estilos boton*/
 .btn-primary {
     background-color: #FF0000; 
-    border: none; /* Sin borde */
+    border: none; 
     border-radius: 10px; 
-    text-decoration: none; /* Sin subrayado */
+    text-decoration: none; 
     color: white; 
     transition: background-color 0.3s ease; /* Transición suave */
     position: relative; 
@@ -88,5 +88,5 @@ body{
 }
 
 .btn-primary:hover {
-    background-color: #CC0000; /* Color rojo más oscuro al hacer hover */
+    background-color: #CC0000; 
 }
